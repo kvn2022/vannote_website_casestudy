@@ -1,2 +1,3 @@
-# vannote_website_casestudy
+# Faccia Brutto Spirits Case Study
+Case Study of a Design System for Web Development
  
