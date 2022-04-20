@@ -1,0 +1,21 @@
+:root {
+    --font-sans-serif: roc-grotesk;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: roc-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+img {
+    width: 50%;
+}
+
