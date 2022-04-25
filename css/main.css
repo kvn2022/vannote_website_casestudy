@@ -1,5 +1,5 @@
 :root {
-    --font-sans-serif: roc-grotesk;
+    --font-sans-serif: ;
 }
 
 html {
@@ -10,6 +10,10 @@ html {
   }
 
 body {
+  font-family: Arial, sans-serif;
+}
+
+.component__code {
     font-family: roc-grotesk, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -18,4 +22,26 @@ body {
 img {
     width: 50%;
 }
+
+.component__title {
+  font-size: 50px;
+  font-family: impetus, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.component__button {
+  font-size: 20px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.component__custom {
+  font-size: 20px;
+  font-family: bennet-banner-extra-condense,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
