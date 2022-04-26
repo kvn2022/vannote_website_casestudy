@@ -51,7 +51,7 @@ img {
   font-style: normal;
 }
 
-.component__button span {
+.component__button span, .component__custom span {
   background-color: var(--cream);
 }
 
