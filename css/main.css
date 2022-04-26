@@ -1,5 +1,12 @@
 :root {
-    --font-sans-serif: ;
+  --black: #000;
+  --white: #fff;
+  --cream: #fefbf4;
+  --green: #608168;
+  --blue: #37718e;
+  --orange: #eb572a;
+  --navy: #363b45;
+  --yellow: #fdbc4a;
 }
 
 html {
