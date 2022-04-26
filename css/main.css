@@ -21,6 +21,19 @@ body {
   background-color: lightgray;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 20px;
+}
 .component__code {
     font-family: roc-grotesk, sans-serif;
     font-style: normal;
@@ -65,8 +78,16 @@ img {
 
 .component__custom {
   font-size: 20px;
+  color: #eb572a;
   font-family: bennet-banner-extra-condense,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.screenshot__img {
+  width: 75%;
+}
+
+.nav__img {
+  max-width: 20%;
+}
