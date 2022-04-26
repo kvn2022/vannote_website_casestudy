@@ -85,7 +85,7 @@ img {
 }
 
 .screenshot__img {
-  width: 75%;
+  width: 25%;
 }
 
 .nav__img {
@@ -105,4 +105,8 @@ img {
   width: 50%;
   border: 20px solid var(--cream);
   float: left;
+}
+
+.product-main__img {
+  width: 25%;
 }
