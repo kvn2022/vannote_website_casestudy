@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
+  background-color: lightgray;
 }
 
 .component__code {
@@ -44,10 +45,16 @@ img {
 
 .component__button {
   font-size: 20px;
+  padding: 5px;
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.component__button span {
+  background-color: var(--cream);
+}
+
 
 .component__underline {
   font-size: 20px;
