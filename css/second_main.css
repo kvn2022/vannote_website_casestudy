@@ -16,15 +16,32 @@
       box-sizing: inherit;
     }
   
-  body {
+  body, h1 {
     font-family: roc-grotesk,sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: var(--cream);
   }
   
-  .component__img {
-    width: 15%;
+  h2 {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100%;
+  }
+
+  .aperitivo {
+    text-decoration: none;
+    color: var(--orange);
+  }
+
+  .aperitivo__link {
+    color:var(--orange);
+    font-size: 12%;
+  }
+
+  .aperitivo a:hover {
+    color: var(--black);
   }
 
   .topnav__logo {
@@ -32,9 +49,17 @@
       padding-top: 92px;
   }
 
-  .topnav__img {
-      max-height: 100%;
-      max-width: 100%;
+  .hero__img {
+    height: auto;
+    display: block;
+    object-fit: contain;
+    max-width: 183px;
+  }
+
+  .main__img {
+      max-height: 792px;
+      max-width: 2160px;
+
   }
 
   .component__title {
@@ -73,10 +98,6 @@
     font-style: normal;
   }
   
-  .screenshot__img {
-    width: 25%;
-  }
-  
   .nav__img {
     max-width: 20%;
   }
@@ -97,13 +118,13 @@
   }
   
   .product-main__img {
-    width: 25%;
+    width: 50%;
+    margin-top: 40px;
   }
   
   .product__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 30px;
   }
   
   .container {
@@ -126,7 +147,7 @@
     margin-left:0;
     padding:24px;
     display:flex;
-    justify-content: ;
+    justify-content: space-between;
     align-items: center;
   }
   
