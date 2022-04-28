@@ -110,3 +110,50 @@ img {
 .product-main__img {
   width: 25%;
 }
+
+.product__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  background-color: var(--cream);
+  width: 100%;
+  height: 65px;
+}
+
+.topnav {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1920px;
+  margin: auto;
+  height: 100%;
+
+}
+
+.topnav ul {
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* This is the container for my navigation */
+.topnav a {
+  float: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Archivo', sans-serif;
+  text-decoration:none;
+  color: rgb(5,5,5);
+ 
+
+.third {
+  width:33%;
+  color:cyan;
+}
