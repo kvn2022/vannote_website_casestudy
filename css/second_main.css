@@ -30,19 +30,34 @@
     font-size: 100%;
   }
 
+/* start: this is the template for the next articles*/
+
   .aperitivo {
     text-decoration: none;
+    font-size: 22px;
+    line-height: 1.2;
     color: var(--orange);
   }
 
   .aperitivo__link {
     color:var(--orange);
-    font-size: 12%;
+    font-size: 10px;
+    text-underline-offset: 25%;
   }
 
-  .aperitivo a:hover {
+  .aperitivo__link:hover {
     color: var(--black);
   }
+
+  .component__custom1 {
+    font-size: 22px;
+    color: #eb572a;
+    font-family: bennet-banner-extra-condense,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* END: this is the template for the next articles*/
 
   .topnav__logo {
       width: 60%;
@@ -78,10 +93,6 @@
     font-style: normal;
   }
   
-  .component__button span, .component__custom span {
-    background-color: var(--cream);
-  }
-  
   .component__underline {
     font-size: 15px;
     font-family: futura-pt, sans-serif;
@@ -90,13 +101,6 @@
     text-decoration: underline;
   }
   
-  .component__custom {
-    font-size: 20px;
-    color: #eb572a;
-    font-family: bennet-banner-extra-condense,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
   
   .nav__img {
     max-width: 20%;
