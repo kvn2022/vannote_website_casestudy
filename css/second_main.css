@@ -37,12 +37,15 @@
     font-size: 22px;
     line-height: 1.2;
     color: var(--orange);
+    text-align: center;
   }
 
   .aperitivo__link {
     color:var(--orange);
     font-size: 10px;
     text-underline-offset: 25%;
+    position: relative;
+    bottom: 15px;
   }
 
   .aperitivo__link:hover {
@@ -59,6 +62,90 @@
 
   /* END: this is the template for the next articles*/
 
+  .amaro {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--blue);
+    text-align: center;
+  }
+
+  .amaro__link {
+    color:var(--blue);
+    font-size: 10px;
+    text-underline-offset: 25%;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .amaro__link:hover {
+    color: var(--black);
+  }
+
+  .component__custom2 {
+    font-size: 22px;
+    color: var(--blue);
+    font-family: bennet-banner-extra-condense,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .nocino {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--black);
+    text-align: center;
+  }
+
+  .nocino__link {
+    color:var(--black);
+    font-size: 10px;
+    text-underline-offset: 25%;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .nocino__link:hover {
+    color: var(--black);
+  }
+
+  .component__custom3 {
+    font-size: 22px;
+    color: var(--black);
+    font-family: bennet-banner-extra-condense,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gorini {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--yellow);
+    text-align: center;
+  }
+
+  .gorini__link {
+    color:var(--yellow);
+    font-size: 10px;
+    text-underline-offset: 25%;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .gorini__link:hover {
+    color: var(--black);
+  }
+
+  .component__custom4 {
+    font-size: 22px;
+    color: var(--yellow);
+    font-family: bennet-banner-extra-condense,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .topnav__logo {
       width: 60%;
       padding-top: 92px;
@@ -69,6 +156,7 @@
     display: block;
     object-fit: contain;
     max-width: 183px;
+    z-index: 100;
   }
 
   .main__img {
@@ -155,7 +243,7 @@
     align-items: center;
   }
   
-  /* This is the container for my navigation */
+  /* start: This is the container for my navigation */
   .topnav a {
     float: center;
     text-align: center;
@@ -171,6 +259,7 @@
       text-decoration: underline;
   }
 
-  .third {
+  .third { /*what does this link to?*/
       max-width: initial;
   }
+    /* END: This is the container for my navigation */
