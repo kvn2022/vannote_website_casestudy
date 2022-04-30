@@ -146,6 +146,21 @@
     font-style: normal;
   }
 
+  .nonna {
+    font-size: 10px;
+    text-align: center;
+    max-height: 104px;
+    max-width: 175px;
+  }
+
+  .nonna__link {
+    color:var(--black);
+    font-size: 10px;
+    text-underline-offset: 25%;
+    position: relative;
+    bottom: 6px;
+  }
+
   .topnav__logo {
       width: 60%;
       padding-top: 92px;
@@ -162,7 +177,6 @@
   .main__img {
       max-height: 792px;
       max-width: 2160px;
-
   }
 
   .component__title {
