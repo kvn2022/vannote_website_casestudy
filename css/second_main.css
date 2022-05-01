@@ -122,6 +122,16 @@
     padding:0 5%;
 }
 
+.faccia {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  justify-content: space-between;
+  
+
+}
+
 .callout p{
     font-size:60px;
     line-height:1.25
@@ -321,8 +331,9 @@
     color:var(--white);
       font-size: 10px;
       text-underline-offset: 25%;
-      position: /*not sure what to do here*/
-      width: 50%;
+      display: inline;
+      text-align: center 
+      /*not sure what to do here*/
   }
   
   .more__link:hover {
@@ -392,8 +403,8 @@
 
     .footer__logo {
       height: 100%;
-      justify-content: center;
-      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
     }
 
     
