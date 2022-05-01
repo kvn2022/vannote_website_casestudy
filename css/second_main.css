@@ -16,17 +16,24 @@
       box-sizing: inherit;
     }
   
-  body, h1 {
+  body {
     font-family: roc-grotesk,sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: var(--cream);
   }
   
+  h3 {
+    font: roc-grotesk,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .container {
     background-color: var(--cream);
     width: 100%;
     height: 65px;
+    position: relative;
   }
   
   .topnav {
@@ -67,8 +74,6 @@
       max-width: initial;
   }
     /* END: This is the container for my navigation */
-
-
 
   h2 {
     font-family: roc-grotesk, sans-serif;
@@ -152,6 +157,7 @@
 
   .aperitivo {
     text-decoration: none;
+    width: 100%;
     font-size: 22px;
     line-height: 1.2;
     color: var(--orange);
@@ -160,6 +166,7 @@
 
   .aperitivo__link {
     color:var(--orange);
+    width: 100%;
     font-size: 10px;
     text-underline-offset: 25%;
     position: relative;
@@ -178,10 +185,9 @@
     font-style: normal;
   }
 
-  /* END: this is the template for the next articles*/
-
   .amaro {
     text-decoration: none;
+    width: 100%;
     font-size: 22px;
     line-height: 1.2;
     color: var(--blue);
@@ -210,6 +216,7 @@
 
   .nocino {
     text-decoration: none;
+    width: 100%;
     font-size: 22px;
     line-height: 1.2;
     color: var(--black);
@@ -236,8 +243,38 @@
     font-style: normal;
   }
 
+  .fernet {
+    text-decoration: none;
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--green);
+    text-align: center;
+  }
+
+  .fernet__link {
+    color:var(--green);
+    font-size: 10px;
+    text-underline-offset: 25%;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .fernet__link:hover {
+    color: var(--black);
+  }
+
+  .component__custom4 {
+    font-size: 22px;
+    color: var(--green);
+    font-family: bennet-banner-extra-condense,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   .gorini {
     text-decoration: none;
+    width: 100%;
     font-size: 22px;
     line-height: 1.2;
     color: var(--yellow);
@@ -256,7 +293,7 @@
     color: var(--black);
   }
 
-  .component__custom4 {
+  .component__custom5 {
     font-size: 22px;
     color: var(--yellow);
     font-family: bennet-banner-extra-condense,sans-serif;
@@ -266,9 +303,10 @@
 
   .nonna {
     font-size: 10px;
+    max-width: 100%;
+    height: auto;
     text-align: center;
-    max-height: 104px;
-    max-width: 175px;
+    vertical-align: middle;
   }
 
   .nonna__link {
@@ -283,9 +321,8 @@
     color:var(--white);
       font-size: 10px;
       text-underline-offset: 25%;
-      position: fixed;
-      bottom: 20px;
-      left: 700px;
+      position: /*not sure what to do here*/
+      width: 50%;
   }
   
   .more__link:hover {
@@ -342,17 +379,21 @@
     font-style: normal;
     text-decoration: underline;
   }
-  
-  
-  .nav__img {
-    max-width: 20%;
-  }
-  
-  .top__img {
-    width: 40%;
-  }
-  
-  .top__img1 {
-    width: 20%;
-  }
 
+    .footer {
+      background-color: var(--green);
+    }
+
+    .ul__social {
+      columns: 2;
+      color: var(--black);
+      list-style-type: none;
+    }
+
+    .footer__logo {
+      height: 100%;
+      justify-content: center;
+      display: flex;
+    }
+
+    
