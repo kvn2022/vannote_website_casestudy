@@ -34,29 +34,10 @@ h2 {
 h3 {
   font-size: 20px;
 }
-.component__code {
-    font-family: roc-grotesk, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-}
 
-.component__img {
-  width: 15%;
-}
 
-img {
-    width: 40%;
-}
 
-.component__title {
-  font-size: 75px;
-  align-items: center;
-  font-family: impetus, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.component__button {
+.component {
   font-size: 15px;
   padding: 5px;
   font-family: futura-pt, sans-serif;
@@ -64,9 +45,37 @@ img {
   font-style: normal;
 }
 
-.component__button span, .component__custom span {
-  background-color: var(--cream);
+.component__img {
+  width: 15%;
 }
+
+.nav__screen {
+  width: 50%;
+}
+
+.logo__screen {
+  width: 23%;
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.grotesk{
+  font-family: roc-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bennet {
+  font-size: 22px;
+  color: #eb572a;
+  font-family: bennet-banner-extra-condense,sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+}
+
 
 .component__underline {
   font-size: 15px;
@@ -85,8 +94,78 @@ img {
 }
 
 .screenshot__img {
-  width: 25%;
+  width: 50%;
 }
+
+/* navigation bar css*/
+.container {
+  background-color: var(--cream);
+  width: 100%;
+  height: 65px;
+  position: relative;
+}
+
+.topnav {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: auto;
+  height: 100%;
+}
+
+.topnav ul {
+  list-style: none;
+  margin-left:0;
+  padding:24px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* start: This is the container for my navigation */
+.topnav a {
+  float: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Archivo', sans-serif;
+  text-decoration:none;
+  color: rgb(5,5,5);
+  z-index: 40;
+}
+ 
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+.third { /*what does this link to?*/
+    max-width: initial;
+}
+  /* END: This is the container for my navigation */
+
+
+  .padding-top {
+    padding-top: 100px;
+  }
+
+  .hero__section {
+    padding-bottom: 25px;
+    max-width: 100%;
+  }
+
+  .hero__redo {
+    background-color: var(--cream);
+    font-size: 60px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero__logo {
+    max-width: 183px;
+    padding: 0;
+  }
 
 .nav__img {
   max-width: 20%;
@@ -100,20 +179,8 @@ img {
   width: 20%;
 }
 
-.product__img {
-  box-sizing: border-box;
-  width: 50%;
-  border: 20px solid var(--cream);
-  float: left;
-}
-
 .product-main__img {
   width: 25%;
-}
-
-.product__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .container {
@@ -122,38 +189,83 @@ img {
   height: 65px;
 }
 
-.topnav {
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1920px;
-  margin: auto;
-  height: 100%;
-
-}
-
-.topnav ul {
-  list-style: none;
-  margin-left:0;
-  padding-left:0;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-/* This is the container for my navigation */
-.topnav a {
-  float: center;
+.amaro {
+  text-decoration: none;
+  width: 50%;
+  font-size: 22px;
+  font-family: roc-grotesk,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  color: var(--blue);
   text-align: center;
-  padding: 20px;
-  font-size: 15px;
-  font-family: 'Archivo', sans-serif;
-  text-decoration:none;
-  color: rgb(5,5,5);
- 
-
-.third {
-  width:33%;
-  color:cyan;
 }
+
+.amaro__link {
+  color:var(--blue);
+  font-size: 10px;
+  text-underline-offset: 25%;
+  position: relative;
+  bottom: 15px;
+}
+
+.amaro__link:hover {
+  color: var(--black);
+}
+
+.component__custom2 {
+  font-size: 22px;
+  color: var(--blue);
+  font-family: bennet-banner-extra-condense,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wht {
+  color: var(--white)
+}
+
+.blk {
+  color: var(--black);
+}
+
+.absolute {
+  position:absolute
+}
+
+.flex {
+  display:flex
+}
+
+.flex-wrap-wrap {
+  flex-wrap: wrap
+}
+
+.flex-wrap-nowrap {
+  flex-wrap:nowrap
+}
+
+.justify-center {
+  justify-content: center
+}
+.justify-space-around {
+  justify-content:space-around
+}
+.justify-space-between {
+  justify-content:space-between
+}
+
+/* homepage specific selectors */
+
+.callout {
+  padding:0 5%;
+}
+
+.callout p{
+  font-size:60px;
+  line-height:1.25
+}
+
+
+/*copy/paste from second_main.css*/
