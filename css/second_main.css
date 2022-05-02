@@ -23,6 +23,13 @@
     background-color: var(--cream);
   }
   
+  h2 {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100%;
+  }
+
   h3 {
     font: roc-grotesk,sans-serif;
     font-weight: 500;
@@ -31,12 +38,13 @@
   }
 
   .container {
-    background-color: var(--cream);
     width: 100%;
     height: 65px;
     position: relative;
   }
   
+   /* start: container for my navigation */
+ 
   .topnav {
     display:flex;
     justify-content: center;
@@ -55,7 +63,6 @@
     align-items: center;
   }
   
-  /* start: This is the container for my navigation */
   .topnav a {
     float: center;
     text-align: center;
@@ -66,6 +73,11 @@
     color: rgb(5,5,5);
     z-index: 40;
   }
+
+  .topnav__logo {
+    width: 60%;
+    padding-top: 92px;
+  }
    
   .topnav a:hover {
       text-decoration: underline;
@@ -75,15 +87,12 @@
       max-width: initial;
   }
 
-  h2 {
-    font-family: roc-grotesk, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 100%;
-  }
+/* end: container for my navigation */
+
+/* start: general commands */
 
 .wht {
-    color: var(--white)
+    color: var(--white);
 }
 
 .blk {
@@ -91,32 +100,55 @@
 }
 
 .absolute {
-    position:absolute
+    position:absolute;
 }
 
 .flex {
-    display:flex
+    display:flex;
 }
 
 .flex-wrap-wrap {
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .flex-wrap-nowrap {
-    flex-wrap:nowrap
+    flex-wrap:nowrap;
 }
 
 .justify-center {
-    justify-content: center
+    justify-content: center;
 }
 .justify-space-around {
-    justify-content:space-around
+    justify-content:space-around;
 }
 .justify-space-between {
-    justify-content:space-between
+    justify-content:space-between;
 }
 
-/* homepage specific selectors */
+/* end: general commands */
+
+/* start: hero section and process*/
+
+.hero__img {
+height: auto;
+display: block;
+object-fit: contain;
+max-width: 183px;
+z-index: 100;
+}
+
+.main__img {
+  position:relative;
+  width:100%;
+  height: 660px;
+}
+
+.main__img img {
+object-fit:cover;
+object-position: center center;
+width:100%;
+height:100%;
+}
 
 .callout {
     padding:0 5%;
@@ -127,6 +159,11 @@
   text-decoration: none;
 }
 
+.callout p{
+  font-size:60px;
+  line-height:1.25
+}
+
 .faccia {
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
@@ -135,36 +172,20 @@
   justify-content: space-between;
 }
 
-.callout p{
-    font-size:60px;
-    line-height:1.25
+/* end: hero and process section */
+
+/*start: product section*/
+
+.product__grid {
+  box-sizing: border-box;
+  padding:50px;
+  width:50%;
 }
-
-    .products {
-        width:100%;
-    }
-
-  .product__img {
-    box-sizing: border-box;
-    width: 50%;
-    border: 20px solid var(--cream);
-  }
-  
-  .product-main__img {
-    width: 50%;
-    margin-top: 40px;
-  }
 
 .product__grid img{
    max-width: 100%
   }
   
-  .product__grid {
-      box-sizing: border-box;
-      padding:50px;
-      width:50%;
-  }
-
   .aperitivo {
     text-decoration: none;
     width: 100%;
@@ -327,6 +348,8 @@
     bottom: 6px;
   }
 
+/*end: product section*/
+
   .more__link {
     color:var(--white);
       font-size: 10px;
@@ -337,56 +360,9 @@
     color:var(--green)
   }
 
-  .topnav__logo {
-      width: 60%;
-      padding-top: 92px;
-  }
+/*see above for process section*/
 
-  .hero__img {
-    height: auto;
-    display: block;
-    object-fit: contain;
-    max-width: 183px;
-    z-index: 100;
-  }
-
-/* relative positioning so that children adhere to parent container */
-.main__img {
-      position:relative;
-      width:100%;
-      height: 660px;
-  }
-
-.main__img img {
-    object-fit:cover;
-    object-position: center center;
-    width:100%;
-    height:100%;
-}
-
-  .component__title {
-    font-size: 75px;
-    align-items: center;
-    font-family: impetus, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .component__button {
-    font-size: 15px;
-    padding: 5px;
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .component__underline {
-    font-size: 15px;
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: underline;
-  }
+/*start: footer section*/
 
     .footer {
       background-color: var(--green);
@@ -435,4 +411,4 @@
       height: 100%;
     }
 
-    
+  /*end: footer section*/
